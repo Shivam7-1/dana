@@ -80,7 +80,7 @@ function getBuildPanel(url, build) {
 
 function clearBuild() {
   var builds = document.getElementById("builds");
-  builds.innerHTML = "";
+  builds.textContent = "";
   currentBuildsInView = {};
 
   // if (runningBuild !== undefined)
